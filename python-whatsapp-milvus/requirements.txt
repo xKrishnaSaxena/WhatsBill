@@ -1,0 +1,12 @@
+flask
+twilio
+pymilvus
+weasyprint
+python-dotenv
+requests
+datetime
+uuid
+openai==0.28
+pydub
+gunicorn
+google.generativeai

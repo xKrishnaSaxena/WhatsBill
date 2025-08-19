@@ -1,0 +1,23 @@
+Milvus Database Setup:
+Step 1: Start the container
+    docker start milvus-standalone
+Step 2: Creating the collection
+    python create_collection.py
+Step 3: Initialize Milvus
+    python initialize_milvus.py
+
+Starting the Server:
+Step 1: Create Virtual Environment:
+    python -m venv venv
+Step 2: Activate the virtual environment:
+    source venv/bin/activate
+Step 3: Install Required Packages:
+    pip install -r requirements.txt
+Step 4: Run Your Flask Application
+    pip install gunicorn
+    gunicorn -c gunicorn_conf.py main:app
+
+
+
+
+
