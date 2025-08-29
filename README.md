@@ -100,9 +100,3 @@ MILVUS_PORT=19530
 4. Confirm: Receive a PDF invoice link.
 5. Set reminders: e.g., "Remind me in 2 hours to pay bill."
 6. Send voice notes: The bot transcribes and processes them.
-
-For full flow, see the attached screenshots in the repo (e.g., company selection, service addition, confirmation).
-
-
-
-
